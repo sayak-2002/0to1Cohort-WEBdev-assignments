@@ -15,12 +15,5 @@ function isAnagram(str1, str2) {
   return sortedstr1 === sortedstr2;
 }
 
-if(isAnagram("rain", "nair")) {
-  console.log("Anagram");
-}
-else {
-  console.log("Not an anagram");
-}
-
 
 module.exports = isAnagram;
